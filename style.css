@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Frente H1";
+    src: url("FrenteH1-Regular.otf");
+}
+
+
+*{
+    font-family: "Frente H1";
+    src: url("FrenteH1-Regular.otf");
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+body{
+    background-color: #fdf0f0 ;
+}
+
+/* score */
+.skor{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+/* header area */
+header{
+    font-size: 20px;
+    text-align:center;
+    margin:10px;
+}
+
+/* style information */
+.hasil{
+    font-size:2.1em;
+    text-align:center;
+    margin:20px 0;
+}
+
+/* area computer */
+.area-computer{
+    width: 75%;
+    margin: auto;
+    background-color: #e9e9e9;
+    text-align: center;
+    padding:50px;
+    border-radius:15px;
+    box-sizing:border-box;
+    box-shadow: 0.1rem 0.1rem 0.5rem #888888;
+}
+
+/* figure caption */
+figcaption{
+    text-align: center;
+    font-weight: 600;
+}
+
+/* area player */
+.area-player{
+    box-sizing:border-box;
+    box-shadow: 0.1rem 0.1rem 0.5rem #888888;
+    border-radius: 15px;
+    width: 75%;
+    margin:auto;
+    padding:50px;
+    margin-top:10px;
+    background-color: #efefef;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+/* information */
+.info{
+    font-size: 1.6em;
+    text-align:center;
+    font-weight: 800;
+}
+
+/* result the match */
+.result{
+    font-size: 1.7em;
+    margin:20px 0;
+    text-align:center;
+    font-weight: 900;
+}
+
+figcaption{
+    margin-top: 10px;
+    font-size:1.5em;
+}
