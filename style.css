@@ -89,9 +89,15 @@ figcaption{
 }
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     img{
         width: 80px;
         height: 80px;
+    }
+    
+    .area-player{
+        display: flex;
+        justify-content:center;
+        align-items:center;
     }
 }
