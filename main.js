@@ -7,7 +7,6 @@ function pilihanKomputer(){
     } 
 
 // declaration of the battle win or lose
-
 function result(comp,player){
     if(player == comp) return "oh uh hasilnya seri";
     if(player == "batu") return (comp == "kertas") ? "yah.. kamu kalah.." : "hore, kamu menang!!";

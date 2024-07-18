@@ -87,3 +87,11 @@ figcaption{
     margin-top: 10px;
     font-size:1.5em;
 }
+
+
+@media screen and (max-width:600px){
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
